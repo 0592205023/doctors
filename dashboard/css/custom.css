@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+:root {
+  --light-green:rgb(12, 164, 235);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.login{
+    width: 500px;
+    margin: 80px auto;
+    font-family: 'Mirza', cursive;
+            text-align: center;
+
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+.fa-solid, .fas {
+
+    margin-left: 8px;
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.list-group-flush .list-group-item{
+      direction: ltr;
+}
+.ok {
+    flex-direction: row-reverse;
+}
+.form-control{
+  display: flex;
+align-items: center;
+align-content: flex-start;
+flex-direction: row-reverse;
+justify-content: space-between;
+flex-wrap: nowrap;
+text-align: right;
+}
+.login h5{
+
+    color: #555;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+.login button{
+
+    padding: 5px;
+    width: 230px;
+    background: #00b593;
+    border: 1px solid #00b593;
+    color: #fff;
+}
+.btn-color {
+  background: var(--light-green);
+  color: #fff;
+}
+.form-outline{
+
+}
+.form-outline .form-control~.form-label{
+
+      direction: ltr;
+
+}
+.form-floating>label ,.fw-bold {
+      direction: ltr;
+}
+.button_backhome{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.toast-header{
+justify-content: space-between;
+}
+.progress{
+      border-radius: 0;
+      height: 4px;
+}
+.custom-btn {
+  padding: 5px 20px;
+  background: var(--light-green);
+  color: #f8f8f8;
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff !important;
+}
+button a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+body {
+  overflow-x: hidden;
+  font-family: janna lt;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-right: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+.border-right {
+  border-left: 1px solid #dee2e6 !important;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  background:rgb(44, 12, 224);
+  color: #f8f8f8;
+  direction: ltr;
+
+}
+.sub-menu {
+  padding-right: 0;
+  background: rgb(44, 12, 224);
+  color: #f8f8f8;
+}
+.sub-menu a {
+  background: rgb(44, 12, 224);
+  color: #f8f8f8;
+}
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+#sidebar-wrapper .list-group .list-group-item.active {
+  background: rgb(44, 12, 224); !important;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+#page-content-wrapper .btn-primary {
+  background-color: var(--light-green) !important;
+  border-color: var(--light-green);
+}
+#page-content-wrapper .btn-primary a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-right: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+    background: #f8f8f8;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-right: -15rem;
+  }
+}
+
+/* Dashboard page */
+.statistics {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.statistic {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Profile */
+.profile {
+  margin: 50px 0;
+}
+/* Start categories page */
+.categories {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.show-cat {
+  margin-top: 50px;
+}
+.table .thead-dark th {
+  color: #fff;
+  background-color: var(--light-green);
+  border: 1px solid #ccc;
+}
+.table td,
+.table tr {
+  border: 1px solid #ccc;
+}
+/* End categories page */
+
+/* Start edit category page */
+.edit-cat {
+  margin-top: 30px;
+}
+/* End edit category page */
+
+/* Start pagination */
+a.page-link {
+  color: var(--light-green);
+}
+/* End pagination */
+
+/* Start new book page */
+.new-book {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* End new book page */
